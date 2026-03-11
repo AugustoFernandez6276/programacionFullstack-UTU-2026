@@ -6,7 +6,7 @@ Que representa cada carpeta:
 
 Cuando la clase es: horarios, semanas, clases
 
-Que debemos que tener:materiales, aplicaciones.
+Que debemos que tener:materiales, aplicaciones, equipo.
 
 Que vamos a hacer: Temas, proyectos
 
