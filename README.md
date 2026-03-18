@@ -8,7 +8,7 @@ Cuando la clase es: horarios, semanas, clases
 
 Que debemos que tener:materiales, aplicaciones, equipo.
 
-Que vamos a hacer: Temas, proyectos
+Que vamos a hacer: Temas, proyectos, ejercicio.
 
 Y una para para otras cosas.
 
@@ -16,4 +16,4 @@ Forma de organizar:
 
 Lo organize de este modo para ampliear en todo lo que se necesitaria saber en la asigantura, tambien hice una carpeta para otras cosas.
 
-
+Todos los ejercicos estan en la carpeta Ejercicios.
