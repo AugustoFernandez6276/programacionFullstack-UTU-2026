@@ -1,0 +1,9 @@
+6
+
+Comprendés los principales contenedores como header, footer, section y main, pero todavía hay confusión con otras etiquetas como article y nav.
+
+Algunos diagramas no se comprenden del todo o no coinciden con la estructura real de la página web. Recordá que las páginas están formadas por “cajas” que se organizan unas dentro de otras. Por ejemplo, podés tener un nav con listas dentro, o section que contengan listas y divs.
+
+Intentá empezar a visualizar las páginas como bloques que se van organizando para formar la estructura completa.
+
+PD: Estás usando mucha IA 
