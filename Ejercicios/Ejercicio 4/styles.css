@@ -1,0 +1,88 @@
+
+
+:root {
+    --primary-color: #1f2020;
+    --secondary-color: white;
+    --text-color: #000000;
+    background-color: #0aafb4;
+}
+
+header {
+   box-shadow: -3px 0px 91px 50px rgba(10, 10, 10, 1),
+    10px 10px 0px 0px rgba(79, 79, 79, 1),
+    15px 15px 0px 0px rgba(43, 43, 43, 1);
+    /* Un box-shadow con múltiples capas para crear un efecto de profundidad (CSS Portal) */
+
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 30px;
+    /* Hace que el header tenga bordes redondeados con muchas capas (CSS Portal) */
+
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    /* Agregar sombra al texto (CSS Portal) */
+}
+
+h2  {
+    text-align: center;
+    color: black;
+    padding: 20px;
+    box-shadow: inset 0px 0px 15px 5px rgba(0, 0, 0, 0.6);
+
+
+
+}
+ .texto1 {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+    }
+
+    footer {
+    text-shadow: 4px 4px 50px rgba(145, 155, 177, 1);
+color: #303c4f;
+   font-size: 16px;
+font-weight: 900;
+
+
+    }
+
+ 
+.texto3 {
+ 
+  border: 8px solid transparent;
+  border-radius: 25px;
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(to right, #121FCF 0%, #CF1512 100%) border-box;
+    text-align: center;
+    /* Agregar un borde de color al texto (CSS Portal) */
+}
+
+.texto2 {
+    
+background-color: rgb(192, 195, 206);
+color: rgb(221, 223, 230);
+border: 8px solid transparent;
+  border-radius: 25px;
+}
+
+.boton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+ border: rgba(0, 0, 0, 1);
+}
+
