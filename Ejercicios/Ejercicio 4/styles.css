@@ -47,6 +47,8 @@ h2  {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 30px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Muchas fuentes de letras por si las dudas que la primera no fucnione */
 
     }
 
@@ -55,6 +57,14 @@ h2  {
 color: #303c4f;
    font-size: 16px;
 font-weight: 900;
+background: #f3f3f5;
+background: linear-gradient(to right, #6d74d6 0%, #30201f 100%);
+ border-radius: 25px;
+ /* El fondo del texto tiene 2 capas de colores que acen que sea mas oscuro (CSS Portal) */
+
+
+
+
 
 
     }
@@ -68,6 +78,7 @@ font-weight: 900;
     linear-gradient(#fff, #fff) padding-box,
     linear-gradient(to right, #121FCF 0%, #CF1512 100%) border-box;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     /* Agregar un borde de color al texto (CSS Portal) */
 }
 
@@ -77,12 +88,7 @@ background-color: rgb(192, 195, 206);
 color: rgb(221, 223, 230);
 border: 8px solid transparent;
   border-radius: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.boton {
-  background-color: #007bff;
-  color: white;
-  padding: 10px 20px;
- border: rgba(0, 0, 0, 1);
-}
 
