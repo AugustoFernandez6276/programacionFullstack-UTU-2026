@@ -1,3 +1,7 @@
+:root {
+background-color: gray;
+}
+
 .CuadradoRojo {
    
  
@@ -6,6 +10,9 @@
     border: 2px solid rgb(0, 0, 0);
     background-color: red;
     color: white;
+    top: 1%;
+    margin-bottom: 2%;
+    
     
     }
 
@@ -17,6 +24,13 @@
     border: 2px solid rgb(0, 0, 0);
     background-color: rgb(44, 92, 16);
     color: white;
+    position: fixed;
+    top: 1%;
+    left: 15%;
+    margin-bottom: 2%;
+   
+
+
     
     }
 
@@ -27,8 +41,129 @@
     border: 2px solid rgb(0, 0, 0);
     background-color: rgb(7, 109, 192);
     color: white;
+    position: fixed;
+    top: 1%;
+    left: 30%;
+    margin-bottom: 2%;
 
      }
+
+     .DiseñoWeb {
+
+  
+     padding: 3% ;
+     background-color: white;
+     position: relative;
+     border-left: 4px solid rgb(15, 100, 197);
+     color: black;
+     font-size: 20px;
+     display: block;
+          width: 20%;
+          margin-bottom: 2%;
+     
+     
+    
+
+    
+    }
+
+    .Absoluto1 {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        background-color: rgb(15, 100, 197);
+        width: 10%;
+        height: 15%;
+       color: white;
+       font-size: 12px;
+       border-radius: 1%;
+        
+         
+    }
+
+    .TextoGris1 {
+
+        color: gray;
+        font-size: 12px;
+        
+    
+    }
+
+        .JavaScript {
+    
+            padding: 3% ;
+     background-color: white;
+     position: relative;
+     border-left: 4px solid rgb(15, 100, 197);
+     color: black;
+     font-size: 20px;
+     display: block;
+          width: 20%;
+          margin-bottom: 2%;
+
+               
+    }
+
+        .Absoluto2 {
+ 
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        background-color: rgb(15, 100, 197);
+        width: 10%;
+        height: 15%;
+       color: white;
+       font-size: 12px;
+       border-radius: 1%;
+
+        }
+
+        
+    .TextoGris2 {
+
+        color: gray;
+        font-size: 12px;
+        
+     }
+
+    .Backend  {
+
+  
+     padding: 3% ;
+     background-color: white;
+     position: relative;
+     border-left: 4px solid rgb(15, 100, 197);
+     color: black;
+     font-size: 20px;
+     display: block;
+          width: 20%;
+          margin-bottom: 2%;
+
+             }
+
+              .Absoluto3 {
+ 
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        background-color: rgb(15, 100, 197);
+        width: 10%;
+        height: 15%;
+       color: white;
+       font-size: 12px;
+       border-radius: 1%;
+
+        }
+
+           .TextoGris3 {
+
+        color: gray;
+        font-size: 12px;
+        
+     }
+
+
+
     
     
     
