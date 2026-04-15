@@ -162,6 +162,92 @@ background-color: gray;
         
      }
 
+        .CuadroEstudiantes {
+
+            
+     padding: 3% ;
+     background-color: rgb(39, 17, 163);
+     position: relative;
+     border-left: 6px solid rgb(196, 197, 197);
+     color: white;
+     font-size: 20px;
+     display: block;
+          width: 60%;
+          margin-bottom: 2%;
+         
+
+}
+
+           .Notas  {
+
+             color: white;
+        font-size: 12px;
+           position: absolute;
+        top: 5%;
+        left: 5%;
+        background-color: rgb(16, 6, 104);
+        width: 20%;
+        height: 20%;
+       border-radius: 1%;
+             padding: 3% ;
+             border-top: 6px solid gray;
+             
+
+
+       }
+
+       .Notas2   {
+
+             color: white;
+        font-size: 12px;
+           position: absolute;
+        top: 5%;
+        left: 37%;
+        background-color: rgb(207, 28, 15);
+        width: 20%;
+        height: 20%;
+       border-radius: 1%;
+             padding: 3%;
+                border-top: 6px solid rgb(196, 6, 6)
+            
+
+
+
+       }
+
+
+        .Notas3 {
+
+             color: white;
+        font-size: 12px;
+           position: absolute;
+        top: 5%;
+        left: 69%;
+        background-color:  rgb(16, 6, 104);
+        width: 20%;
+        height: 20%;
+       border-radius: 1%;
+             padding: 3%;
+             border-top: 6px solid gray;
+
+              }
+
+
+
+
+
+
+            
+
+
+    
+
+
+
+
+
+
+
 
 
     
