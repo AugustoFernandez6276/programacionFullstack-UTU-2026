@@ -1,0 +1,5 @@
+7
+
+Falta mas uso de la propiedad "position", revisar videos.
+
+Hay que intentar acercarse lo mas posible a los estilos de la imagen.
