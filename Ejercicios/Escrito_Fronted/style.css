@@ -19,6 +19,8 @@ html, body {
     padding: 14px 28px;
     justify-content: space-between;
 
+    
+
 }
 .sunnyside {
     padding: 1px;
@@ -59,7 +61,7 @@ a {
 }
 
 .header_img {
-   background-image: url(/Practicos/Escrito_Fronted/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
+   background-image: url(sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
     background-position: bottom;
     background-size: 100%;
     background-repeat: no-repeat; /*Si el background-size es menor a 100% repite el background hasta rellenar el contenedor.*/
