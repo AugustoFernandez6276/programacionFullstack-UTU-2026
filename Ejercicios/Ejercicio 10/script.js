@@ -43,8 +43,8 @@ function agregarclase(){
 }
 
                 function borrarclase(){
-    let borrarclase = document.getElementById("borrarclase");
-    borrarclase.classList.remove("borrarclase");
+    let borrarclase = document.getElementById("agregarclase");
+    borrarclase.classList.remove("agregarclase");
 }
 
     function botonmodooscuro() {
