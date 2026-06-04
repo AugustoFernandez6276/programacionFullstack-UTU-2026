@@ -3,24 +3,34 @@ function enviarFormulario(event) {
 
 
  let agregar = document.getElementById("agregar").value;
-    
-           if (agregar ==  "") {
-    alert("Error");
-    return;
+     
+ let error = document.getElementById("error");
+
+    if (agregar === "") {
+        error.classList.add("ver");
+        return;
+    }
+
+    error.classList.remove("ver");
 
     
+    let lista = document.getElementById("lista");
+       let li = document.createElement("li");
+        li.textContent = agregar;
+     lista.appendChild(li);
 }
 
+function accion(event, boton) {
+    
+      let li = boton.parentElement;
 
-alert("Agregar: " + agregar);
+    if (boton.textContent === "Completar") {
+        
+         li.classList.toggle("completada");
 
-let lista = document.getElementById("lista");
+    } else if (boton.textContent === "Eliminar") {
        
-         let li = document.createElement("li");
-  
-     li.textContent = agregar;
-  
-     lista.appendChild(li)
-
-
+           li.remove();
+    }
 }
+

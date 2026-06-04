@@ -1,0 +1,10 @@
+.error {
+    display: none;
+}
+
+.error.ver {
+    display: block;
+  
+    font-size: 14px;
+    margin-top: 5px;
+}

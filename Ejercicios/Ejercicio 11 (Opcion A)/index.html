@@ -15,12 +15,28 @@
     <input id="agregar" type="text" placeholder="Agregar">
 
 <button onclick="enviarFormulario(event)" type="submit">Agregar</button>
+  <p class="error" id="error">No escribiste algo</p>
  
    </form>
     
-    <ul id="lista"></ul>
+    <ul id="lista">
+        <button onclick="accion(event, this)">Completar</button>
+          <button onclick="accion(event, this)">Eliminar</button>
+        <!--  "this" pasa el botón al tocar a la función para saber cuál fue y acceder a su <li> padre. -->
+    </ul>
+
+     <p>Tareas totales: </p><p id='total'>0</p> 
+     <br>
     
     
+     <p>Tareas completadas: </p><p id='completado'>0</p> 
+    <br>
+    
+      <p>Tareas pendientes: </p><p id='pendientes'>0</p>
+      <br>
+
+
+
     <script src="script.js"></script>
 </body>
 </html>
