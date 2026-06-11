@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mi colección favorita</title>
+</head>
+<body>
+    <img src="Images/5091450.jpg">
+        <div class="content">
+                 <h1 class="title">Mi colección favorita</h1>  <button id="modooscuro">Modo oscuro</button>
+<br>
+<br>
+                <p>Esta pagina web permite gestiona/crear una coleccion segun tus intereses. </p>
+                <br>
+
+       
+<div class="div">       
+    <div class="text-content">
+            
+        </div>
+
+         <div id="contendedorDeTarjetas"></div>
+
+        <div class="inputs">
+            
+    
+    <div class="control-formulario">
+        <label for="name">Nombre: </label> 
+        <input type="text" id="name" class="input">
+        <span class="error-message">No se aceptan valores vacios</span>
+
+    </div>
+
+    <div class="control-formulario columna-error">
+        <div class="linea-input">
+            <label for="description">Descripción breve: </label> 
+            <textarea placeholder="De qué trata..." id="description"></textarea>
+        </div>
+        <span class="error-message">No se aceptan valores vacios</span>
+    </div>
+
+    <div class="control-formulario">
+        <label for="kind">Tipo: </label>
+        <select id="kind">
+            <option value="">Seleccionar...</option>
+            <option value="Videojuego">Videojuego</option>
+            <option value="Película">Película</option>
+            <option value="Serie">Serie</option>
+        </select>
+    </div>
+    
+    <div class="control-formulario">
+        <label for="state">Estado: </label>
+        <select id="state">
+            <option value="">Seleccionar</option>
+            <option value="Pendiente">Pendiente</option>
+            <option value="En progreso">En progreso</option>
+            <option value="Viendo">Viendo</option>
+            <option value="Jugando">Jugando</option>
+            <option value="Completado">Completado</option>
+        </select>
+    </div>
+
+    <div class="control-formulario columna-error">
+        <div class="linea-input">
+            <label for="img">URL: </label>
+            <input id="img" type="url" class="input">
+        </div>
+        <span class="error-message">No se aceptan valores vacios</span>
+    </div>
+    <div class="control-formulario columna-error">
+        <div class="linea-input">
+            <label for="valoracion">Valoracion: </label>
+            <input id="valoracion" class="input">
+        </div>
+        <span class="error-message">No se aceptan valores vacios</span>
+    </div>
+    <p>Elementos agregados: <span id="total-count">0</span></p>
+    <button type="submit" class="btn-gradient">Agregar</button>
+    <br>
+
+</div>
+        
+    </div>
+
+    
+     
+     
+     
+
+           
+
+    <script src="script.js" defer></script>
+</body>
+</html>
