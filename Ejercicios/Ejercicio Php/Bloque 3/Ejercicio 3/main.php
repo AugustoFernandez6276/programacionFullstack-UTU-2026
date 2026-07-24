@@ -1,7 +1,7 @@
 <?php
 
 $numero = 10;
-$texto = "10";
+$texto = 10;
 
 $comparar = $numero == $texto;
 $comparar2 = $numero === $texto;
